@@ -8,6 +8,18 @@ engine.runAndWait()
 string is a sequence of characters enclosed in quotes. it can be sliced for getting a part of string, that is called 'String slicing'.
 Index in a string starts from 0 (for backwards, it starts from -1).
 Syntax for string slicing= s1= name[ind_start:ind_end]
+slicing with skip value: 
+eg: word= "amazing"
+word[1:6:2] #"mzn"
 Changes to existing string can't be done.
 'str' object does not support item assignment.
 strings are immutable.
+Lists are a container to store a set of values of any data type.
+They are various list methods:
+eg: L1=[1,7,5,4,3,23]
+L1.sort
+L1.reverse
+L1.append
+L1.insert
+L1.pop
+L1.remove
